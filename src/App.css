@@ -13,6 +13,14 @@
     height: 400px;
 }
 
+/* PORTFOLIO PAGE */
+.portfolioJumbotron {
+    background-image: url("images/portfolio.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
 
 /* CONTACT PAGE */
 .contactJumbotron {
