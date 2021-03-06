@@ -5,7 +5,18 @@
     font-weight: 600;
 }
 
+/* HOME PAGE */
+.homeJumbotron {
+    background-image: url("images/home.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
 
+h2, p {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
 
 /* FOOTER */
 footer {
