@@ -16,7 +16,6 @@ This app features an About Me, Professional Portfolio, and more. The "Profession
 * React
 * React-Router-DOM
 * React-Bootstrap
-* Bootstrap
 * Heroku
 
 ## License
