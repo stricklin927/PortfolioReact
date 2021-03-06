@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState, Link } from 'react';
 import { Jumbotron, Container, Row, Col } from 'react-bootstrap';
 import profilePic from '../images/profilepic.png';
 
@@ -23,7 +23,6 @@ export function Home() {
                 </Row>
             </Container>
         </div>
-        
       );
     };
   
