@@ -8,9 +8,9 @@ export function Header() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#">Home</Nav.Link>
-          <Nav.Link href="#">Portfolio</Nav.Link>
-          <Nav.Link href="#">Contact</Nav.Link>
+          <Nav.Link href="#" className="NavLink">Home</Nav.Link>
+          <Nav.Link href="#" className="NavLink">Portfolio</Nav.Link>
+          <Nav.Link href="#" className="NavLink">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
