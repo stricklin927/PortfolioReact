@@ -5,7 +5,7 @@ import { Jumbotron, Container, Form, Col, Button } from 'react-bootstrap';
 export function Contact() {
     return (
         <div>
-            <Jumbotron className="homeJumbotron">
+            <Jumbotron className="contactJumbotron">
         </Jumbotron>
             <Container>
                 <Form>
@@ -35,6 +35,7 @@ export function Contact() {
 
                 </Form>
             </Container>
+            <br></br>
         </div>
       );
     };
