@@ -6,6 +6,11 @@ export function Portfolio() {
     return (
         <div>
             <Jumbotron className="portfolioJumbotron">
+                <Container>
+                    <div className="portfolioText">
+                        <h1>Portfolio</h1>
+                    </div>
+                </Container>
             </Jumbotron>
 
             <div className="resumeDiv">

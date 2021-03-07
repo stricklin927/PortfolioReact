@@ -6,7 +6,13 @@ export function Home() {
     return (
         <div>
             <Jumbotron className="homeJumbotron">
+            <Container>
+                    <div className="homeText">
+                        <h1>Alexandra Stricklin</h1>
+                    </div>
+                </Container>
             </Jumbotron>
+
             <Container>
                 <Row>
                     <Col md={4} className="text-center">
@@ -14,8 +20,7 @@ export function Home() {
                     </Col>
                     <Col>
                         <br></br>
-                        <h2><b>Alexandra Stricklin </b></h2>
-                        <h4>About Me</h4>
+                        <h2>About Me</h2>
                         <p className="text-justify">Alexandra is currently enrolled in the Michigan State University coding bootcamp, in hopes of pursuing a career in software development. She has a Bachelor's degree in Spanish Language and French Language from Saginaw Valley State University.</p>
                         <p className="text-justify">Alexandra enjoys teaching and tutoring individuals in both Spanish and French. She also enjoys traveling, whether it's a short trip in the beautiful state of Michigan or a more extensive trip abroad. </p>
                         <p className="text-justify">In her free time, she enjoys trying globally-inspired recipes and spending time with her husband, two sons, and Siberian husky named Maya.</p>

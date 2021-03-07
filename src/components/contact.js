@@ -6,7 +6,13 @@ export function Contact() {
     return (
         <div>
             <Jumbotron className="contactJumbotron">
-        </Jumbotron>
+                <Container>
+                    <div className="contactText">
+                        <h1>Contact Me</h1>
+                    </div>
+                </Container>
+            </Jumbotron>
+            
             <Container>
                 <Form>
                     <Form.Row>

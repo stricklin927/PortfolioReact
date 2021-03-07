@@ -13,12 +13,24 @@
     height: 400px;
 }
 
+.homeText {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding-top: 7%;
+}
+
 /* PORTFOLIO PAGE */
 .portfolioJumbotron {
     background-image: url("images/portfolio.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
+}
+
+.portfolioText {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 10%;
 }
 
 .resumeDiv {
@@ -29,6 +41,7 @@
 }
 
 .resumeText {
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding-top: 25%;
 }
@@ -39,6 +52,12 @@
     background-size: cover;
     background-position: center;
     height: 400px;
+}
+
+.contactText {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding-top: 10%;
 }
 
 h2, p {
