@@ -21,6 +21,17 @@
     height: 400px;
 }
 
+.resumeDiv {
+    background-image: url("images/resume.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.resumeText {
+    text-align: center;
+    padding-top: 25%;
+}
 
 /* CONTACT PAGE */
 .contactJumbotron {
